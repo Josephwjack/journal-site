@@ -1,5 +1,25 @@
 <!DOCTYPE html>
-<head>
- 
+<html lang="en-us">
+  <head>
   <title>Journal Site</title>
 </head>
+<body>
+  <div class="container">
+    <div class="jumbotron">Journal</div>
+    <form id="journal-entry">
+      <div class="form-group">
+        <p>Input Your Journal Title:</p>
+        <input type="text" id="title" name="title" class="form-control">
+        <p>Enter your Journal Entry:</p>
+        <input type="text" id="body" name="body" class="form-control">
+        <br>
+        <button id="btn" type="submit" name="button" class="btn btn-success">Submit Entry</button>
+      </div>
+    </form>
+  </div>
+  <div id="output">
+    <p>Total Word Count<span id="total-count"></span></p>
+  </div>
+  </body>
+  </html>
+  
